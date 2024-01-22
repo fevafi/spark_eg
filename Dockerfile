@@ -33,6 +33,7 @@ ENV HADOOP_VERSION 3.0.0
 
 # python deps
 RUN pip3 install pyspark==$SPARK_VERSION
+RUN pip3 install smart-open
 
 # JAVA
 RUN apt-get update \
